@@ -1,0 +1,120 @@
+body {
+  background: linear-gradient(120deg, #e0e7ff 0%, #f4f6fb 100%);
+  font-family: 'Segoe UI', 'Prompt', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.ant-layout {
+  background: transparent;
+}
+
+.ant-layout-header {
+  background: #fff !important;
+  box-shadow: 0 2px 12px rgba(24, 144, 255, 0.08);
+  padding: 0 32px !important;
+  display: flex;
+  align-items: center;
+  border-radius: 0 0 16px 16px;
+}
+
+.ant-menu-horizontal {
+  border-bottom: none;
+  background: transparent;
+}
+
+.ant-menu-item,
+.ant-menu-submenu-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0 20px !important;
+  transition: color 0.2s;
+}
+
+.ant-menu-item-selected,
+.ant-menu-item-active {
+  color: #1890ff !important;
+  background: rgba(24, 144, 255, 0.08) !important;
+  border-radius: 8px;
+}
+
+.ant-layout-content {
+  margin: 32px 0 0 0;
+  padding: 0 24px;
+}
+
+.page-container {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(24, 144, 255, 0.08);
+  padding: 40px 32px;
+  min-height: 360px;
+  transition: box-shadow 0.2s;
+}
+
+.page-container:hover {
+  box-shadow: 0 8px 32px rgba(24, 144, 255, 0.12);
+}
+
+.ant-btn-primary {
+  background: linear-gradient(90deg, #1890ff 0%, #40a9ff 100%);
+  border: none;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(24, 144, 255, 0.08);
+  transition: background 0.2s;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background: linear-gradient(90deg, #40a9ff 0%, #1890ff 100%);
+}
+
+.ant-table {
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(24, 144, 255, 0.06);
+}
+
+.ant-layout-footer {
+  background: transparent;
+  color: #888;
+  font-size: 1rem;
+  padding: 24px 0;
+  letter-spacing: 1px;
+}
+
+h2,
+.ant-typography {
+  color: #1890ff;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.ant-form {
+  background: #f8faff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(24, 144, 255, 0.06);
+  padding: 32px 24px;
+  margin-bottom: 32px;
+}
+
+.ant-form-item-label>label {
+  font-weight: 500;
+  color: #1890ff;
+}
+
+.ant-form-item {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    padding: 16px;
+  }
+
+  .ant-layout-header {
+    padding: 0 8px !important;
+    border-radius: 0 0 8px 8px;
+  }
+}
